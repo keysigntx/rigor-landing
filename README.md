@@ -1,1 +1,1 @@
-VelcroNFT
+Rigor Landing Page
