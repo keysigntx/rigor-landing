@@ -194,7 +194,9 @@ export default function HomeView() {
                     className={styles.input}
                     placeholder={"Enter your email"}
                   />
-                  <div className={styles.CTA}>SUBSCRIBE FOR UPDATES</div>
+                  <div className={styles.CTA} style={{ fontSize: "15px" }}>
+                    SUBSCRIBE FOR UPDATES
+                  </div>
                 </div>
               </div>
               <div style={{ position: "relative" }}>
