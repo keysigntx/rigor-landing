@@ -1,11 +1,12 @@
 import React from "react";
 import { Redirect, Route, Switch } from "react-router-dom";
-import { RootLocation } from "./Locations";
+import { BlogLocation, RootLocation } from "./Locations";
 import ScrollToTop from "./utils/ScrollToTop";
+import BlogView from "./views/Blog";
 import HomeView from "./views/Home";
 
 const CustomRoute = (props) => {
-  const { path, redirect, withAuth, component, ...leftProps } = props;
+  const { path, redirect, component, ...leftProps } = props;
 
   if (redirect) {
     return <Redirect from={path} to={redirect} {...leftProps} />;
@@ -19,8 +20,12 @@ const routes = [
   {
     path: RootLocation,
     exact: true,
-    withAuth: true,
     component: HomeView,
+  },
+  {
+    path: BlogLocation,
+    exact: true,
+    component: BlogView,
   },
 ];
 

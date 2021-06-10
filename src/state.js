@@ -22,6 +22,7 @@ export const GlobalStateProvider = ({ children }) => {
 };
 
 const useGlobalState = () => {
+  //eslint-disable-next-line
   const [state, dispatch] = useContext(GlobalStateContext);
 
   return {};

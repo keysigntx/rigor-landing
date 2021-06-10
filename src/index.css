@@ -1,8 +1,8 @@
 body {
   margin: 0;
-  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Red Hat Display", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -43,8 +43,11 @@ button {
 }
 
 @font-face {
-  font-family: "Inter";
-  src: local("Inter"), url(./fonts/Inter.ttf) format("truetype");
+  font-family: "Red Hat Display";
+  src: url(./fonts/RedHatDisplay-Regular.ttf) format("truetype")
+      font-weight-normal,
+    url(./fonts/RedHatDisplay-Bold.ttf) format("truetype") font-weight-bold,
+    url(./fonts/RedHatDisplay-Black.ttf) format("truetype") font-weight-bolder;
 }
 
 .ReactModal__Overlay {
