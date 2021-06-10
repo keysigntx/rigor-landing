@@ -290,7 +290,7 @@ export default function HomeView() {
           image={investors}
           subHeader={"For Investors"}
           text={
-            "Create and grow your own communities and access P2P opportunties. So you can meet homebuilders’ historically high demand for capital."
+            "Create and grow your own communities and access P2P opportunties. Help meet homebuilders’ historically high demand for capital."
           }
           header={"Home construction as a cryptoasset"}
         />
